@@ -31,7 +31,7 @@ Deployment Steps
 6. Verified global accessibility via the CloudFront URL
 
 Screenshot Images
-1. S3 Website Endpoint !images/deployment-screenshot.png
+1. S3 Website Endpoint ![images/deployment-screenshot.png](https://github.com/amgbaduba/My-Capstone-Project/blob/4e3111813c1762ae24f67b92018bfb5a088d5688/images/!.jpeg)
 2. CloudFront Distribution !images/cloudfont-screenshot.png
 3. S3 Successful File Upload !images/S3-flie-upload-screenshot.png
 
