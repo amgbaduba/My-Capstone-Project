@@ -8,8 +8,9 @@ This project outlines the deployment of a static website on AWS using:
 - CloudFront Origin Access Control (OAC): Secure Bucket Access Mechanism
 
 The website is hosted on S3 and distributed via CloudFront, ensuring low-latency access worldwide.
+___
+## Architecture
 
-Architecture
 User → CloudFront → S3 Bucket → Static Files
 
 CloudFront handles:
@@ -21,7 +22,7 @@ S3 stores:
 - index.html
 - styles.css
 - script.js
-
+___
 Deployment Steps
 1. Created and configured an S3 bucket for static website hosting
 2. Uploaded website files to the S3 bucket
@@ -29,11 +30,12 @@ Deployment Steps
 4. Created and configured a CloudFront distribution
 5. Set the default root object to index.html
 6. Verified global accessibility via the CloudFront URL
-
+___
 Screenshot Images
 1. S3 Website Endpoint ![images/deployment-screenshot.png](https://github.com/amgbaduba/My-Capstone-Project/blob/4e3111813c1762ae24f67b92018bfb5a088d5688/images/!.jpeg)
 2. CloudFront Distribution ![images/cloudfont-screenshot.png](https://github.com/amgbaduba/My-Capstone-Project/blob/4e3111813c1762ae24f67b92018bfb5a088d5688/images/!!.png)
 3. S3 Successful File Upload ![images/S3-flie-upload-screenshot.png](https://github.com/amgbaduba/My-Capstone-Project/blob/4e3111813c1762ae24f67b92018bfb5a088d5688/images/!!!.jpeg)
+___
 
 Technology Stack
 - HTML5
@@ -41,8 +43,9 @@ Technology Stack
 - JavaScript (ES6+)
 - Amazon S3
 - Amazon CloudFront
+ ___
 
 Author
-<p>AMGBADUBA EMMANUEL EBIKPOLADE
+## <p>AMGBADUBA EMMANUEL EBIKPOLADE
 
-Cloud Engineering (AWS) Capstone Project @ (link unavailable)</p>
+Cloud Engineering(AWS) Capstone Project @ Schull.io</p>
